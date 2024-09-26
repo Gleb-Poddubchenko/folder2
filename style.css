@@ -1,5 +1,47 @@
-#wrapper-btn{
-    padding: 2%;
-    border: 2px solid #bbb;
+*{
+    box-sizing: border-box;
+}
+a{
+color:inherit;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+img{
+    width: 100%;
+}
+.actors-section {
+    min-width: 400px;
+    max-width: 900px;
+    width: 95%;
+    margin: auto;
+    background-color: auto;
+}
+.main-title {
     text-align: center;
+    text-transform: uppercase;
+}
+.actors-list {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.actor-card {
+text-align: center;
+}
+.actor-pic-wrapper {
+padding: 15px;
+}
+.actor-pic {
+width: 160%;
+height: 160%;
+border-radius: 50%;
+object-fit: cover;
+}
+.actor-name {
+margin-bottom: 0;
+}
+.actor-bd {
+color:grey
 }
